@@ -3,8 +3,8 @@
 
 Funcionalidade: Editar registro do empregado
 	Eu como usuario Administrador
-	Quero me editar o perfil de um empregado no site ORANGEHRM
-	Para atualizar seu cadastro
+	Quero editar o perfil de um empregado no site ORANGEHRM
+	Para atualizar seu cadastro 
 
 	@wip
 	Cenário: Editar registro do empregado no site
