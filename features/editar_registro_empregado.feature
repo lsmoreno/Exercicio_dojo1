@@ -6,7 +6,7 @@ Funcionalidade: Editar registro do empregado
 	Quero editar o perfil de um empregado no site ORANGEHRM
 	Para atualizar seu cadastro 
 
-	@wip
+	@done
 	Cenário: Editar registro do empregado no site
 		Dado que acesso o site ORANGEHRM
 		Quando realizar o login com perfil ADM

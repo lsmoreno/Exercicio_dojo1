@@ -7,7 +7,7 @@ require 'pry'
 
 
 #Configurando o driver Capybara
-Capybara.register_driver :Selenium do |app|
+Capybara.register_driver :selenium do |app|
 	Capybara::Selenium::Driver.new(app, :browser => :chrome)
 end 
 

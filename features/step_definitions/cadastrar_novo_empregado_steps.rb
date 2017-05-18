@@ -14,11 +14,11 @@ Então(/^efetuo o cadastro de um novo empregado$/) do
   #binding.pry
   click_link 'menu_pim_viewPimModule'
   click_link 'menu_pim_addEmployee'
-  fill_in('firstName', :with  => 'Aline')
-  fill_in('middleName', :with  => 'Rosa') 
+  fill_in('firstName', :with  => 'Anakin')
+  fill_in('middleName', :with  => 'Souza') 
   fill_in('lastName', :with  => 'Santos') 
   check('chkLogin')
-  fill_in('user_name', :with  => 'ALine R Santos')
+  fill_in('user_name', :with  => 'Anakin S Santos')
   fill_in('user_password', :with  => 'Aline@teste')
   fill_in('re_password', :with  => 'Aline@teste')
   select('British Development Center', :from=> 'location')
